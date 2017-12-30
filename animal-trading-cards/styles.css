@@ -1,0 +1,42 @@
+body {
+  background-color: #fafafa;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #c3c3c3;
+}
+
+.card {
+  width: calc(100% - 20px);
+  margin: 0 auto;
+}
+
+.content-container {
+  width: calc(300px - 2px);
+  margin: 10px 0;
+  border: 1px solid #ccc;
+}
+
+.content {
+  padding: 10px;
+}
+
+.italic {
+  margin: 0;
+  font-style: italic;
+}
+
+.list span {
+  font-weight: bold;
+}
