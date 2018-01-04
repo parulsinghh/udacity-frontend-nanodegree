@@ -1,0 +1,109 @@
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+ 
+header {
+  padding: 55px 0;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.candidate {
+  float : right;
+  text-transform: uppercase;
+  color: #2d3c49;
+}
+
+.name {
+  margin-bottom: 10px;
+}
+
+.position {
+  text-align: right;
+}
+
+.main-title {
+  color: #2d3c49;
+  letter-spacing: 0.5px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.portfolio-item {
+  width: 31%;
+  padding-top: 25px;
+}
+
+.portfolio-title {
+  font-size: 25px;
+  margin: 20px 0;
+  color: #2d3c49;
+  text-align: left;
+}
+
+.portfolio-item img {
+  width: 100%;
+}
+
+.portfolio-item p {
+  color: #2d3c49;
+}
+
+.banner img {
+  max-width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+hr {
+  border-top: 4px solid #ababab;
+  margin: 0;
+}
+
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+@media only screen and (max-width: 960px) {
+  .container, footer {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .candidate {
+    float: none;
+    margin: 30px 0;
+  }
+
+  .position {
+    text-align: center;
+  }
+
+ .portfolio-list {
+    display: block;
+ }
+
+ .portfolio-item {
+    width: 100%;
+ }
+}
