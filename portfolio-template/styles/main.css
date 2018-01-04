@@ -16,7 +16,7 @@ header {
 }
 
 .candidate {
-  float : right;
+  float: right;
   text-transform: uppercase;
   color: #2d3c49;
 }
