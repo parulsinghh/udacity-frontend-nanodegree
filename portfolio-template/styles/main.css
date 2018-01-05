@@ -16,14 +16,13 @@ header {
   justify-content: space-between;
 }
 
-.logo img {
+.logo-image {
   width: 250px;
 }
 
 .candidate {
   text-transform: uppercase;
   color: #2d3c49;
-
 }
 
 .name {
@@ -58,7 +57,7 @@ header {
   text-align: left;
 }
 
-.portfolio-item img {
+.portfolio-image {
   width: 100%;
 }
 
@@ -66,7 +65,7 @@ header {
   color: #2d3c49;
 }
 
-.banner img {
+.banner-image {
   max-width: 100%;
   padding-top: 20px;
   padding-bottom: 40px;
@@ -117,11 +116,11 @@ footer {
     text-align: center;
   }
 
- .portfolio-list {
+  .portfolio-list {
     display: block;
- }
+  }
 
- .portfolio-item {
+  .portfolio-item {
     width: 100%;
- }
+  }
 }
